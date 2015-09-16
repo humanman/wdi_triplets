@@ -1,0 +1,96 @@
+body {
+	/*background-image: url(http://images.amazon.com/images/G/01/electronics/detail-page/B001F7AHXW-1.jpg);*/
+	font-family: 'lucida grande';
+}
+
+#ipod_body {
+	position: absolute;
+	border-radius: 2em;
+	box-shadow: .25em .25em black;
+	height: 80%;
+	width: 25%;
+	background-color: lightgray;
+}
+
+#screen {
+	width: 85%;
+	height: 35%;
+	background-color: white;
+	margin: 1.75em auto;
+	border: .25em solid black;
+	border-radius: 6px;
+}
+
+#wheel {
+	position: absolute;
+	margin-top: 1em;
+	margin-left: 12.5%;
+	border-radius: 50%;
+	height: 42.5%;
+	width: 75%;
+	background-color: snow;
+}
+
+#inner_wheel {
+	position: relative;
+	margin-top: -25%;
+	margin-left: 33%;
+	height: 33%;
+	width: 33%;
+	border-radius: 50%;
+	background-color: lightgray;
+}
+
+#top_bar {
+	margin-top: -1.55em;
+	height: 1.25em;
+	width: 100%;
+	background-color: lightgray;
+}
+
+h6 {
+	padding-top: .25em;
+	padding-left: 1em;
+}
+
+#battery {
+	margin-top: -2.25em;
+	margin-left: 87.5%;
+	height: .5em;
+	width: 7.5%;
+	border: .125em solid black;
+	background-color: lightgreen;
+	border-radius: .25em;
+}
+
+#selection_list {
+	list-style-type: none;
+	margin-left: -1.25em;
+	margin-top: .5em;
+}
+
+li {
+	line-height: 1.325em;
+}
+
+#menu {
+	margin-left: 41%;
+  margin-right: 41%;
+  width: 16%;
+	height: 5px;
+}
+
+#back {
+	margin-top: -2em;
+	margin-left: 10%;
+}
+
+#forward {
+	margin-left: 77.5%;
+	margin-top: 81px;
+}
+
+#play {
+	margin-left: 45%;
+	margin-top: 2.5em;
+}
